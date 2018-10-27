@@ -6324,5 +6324,21 @@ html, body {
 
 body {
   background: #dfdfdf; }
+  body .arrow {
+    position: relative; }
+    body .arrow:before {
+      content: "\f061";
+      font-family: FontAwesome;
+      left: 10rem;
+      position: absolute;
+      top: 0.5rem; }
+  body .arrow-down {
+    position: relative; }
+    body .arrow-down:before {
+      content: "\f063";
+      font-family: FontAwesome;
+      left: 10rem;
+      position: absolute;
+      top: 0.5rem; }
 
 /*# sourceMappingURL=main.css.map */
